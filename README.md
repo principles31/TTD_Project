@@ -37,7 +37,7 @@ Clone the repository using the GitHub link provided below.
 In the terminal, go to your file directory and run this command.
 
 ```
-$ git clone git@github.com:principles31/OOP_school_library.git
+$ git clone https://github.com/principles31/TTD_Project.git
 ```
 
 ### Usage
