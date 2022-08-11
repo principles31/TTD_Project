@@ -1,4 +1,8 @@
 # TTD_Project
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+
+
 ## Built With
 
 - [x] Programming Language: Ruby
@@ -33,27 +37,26 @@ Clone the repository using the GitHub link provided below.
 In the terminal, go to your file directory and run this command.
 
 ```
-$ git clone https://github.com/principles31/TTD_Project.git
+$ git clone git@github.com:principles31/OOP_school_library.git
 ```
 
 ### Usage
 
 Kindly modify the files as needed.
-
 ## Authors
-  ### Author 1
 
 👤 **Emmanuel Mensah**
 
 - GitHub: [@principle31](https://github.com/principles31)
 - Twitter: [@manuel31mens](https://Twiter.com/@Manuel31mens)
 - LinkedIn: [emmanuel-mensah](www.linkedin.com/in/emmanuel-mensah-)
+## 👤 Yusuf Nviiri
+- GitHub: [@yusufnviiri](https://github.com/yusufnviiri)
+- Twitter: [@YNviiri](https://twitter.com/YNviiri)
+- LinkedIn: [yusufnviiri]( https://www.linkedin.com/in/yusuf-nviiri-8b4146206/)
+***
 
-   ### Author 2
 
-👤 **Yusuf Inviiri**
-
-  
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
