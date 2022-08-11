@@ -1,13 +1,13 @@
 class Solver
-    def factorial(num)
-      return 'No negative integer. This is an exception.' if num.negative?
+  def factorial(num)
+    return 'No negative integer. This is an exception.' if num.negative?
   
-      case num
-      when 0
+    case num
+    when 0
         1
-      else
+    else
         num * factorial(num - 1)
-      end
+    end
     end
   
     def reverse(word)
@@ -16,15 +16,14 @@ class Solver
   
     def fizzbuzz(number)
       num = number.to_i
-      if (num % 3).zero? && (num % 5).zero?
+    if (num % 3).zero? && (num % 5).zero?
         'fizzbuzz'
-      elsif (num % 3).zero?
+    elsif (num % 3).zero?
         'fizz'
-      elsif (num % 5).zero?
+    elsif (num % 5).zero?
         'buzz'
-      else
+    else
         num
-      end
     end
-  end
-  
+    end
+end

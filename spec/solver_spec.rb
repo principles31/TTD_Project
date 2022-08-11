@@ -9,30 +9,30 @@ describe 'Write unit tests for class Solver' do
     it 'should take one argument N and returns the factorial for that number' do
       result = @solver.factorial(0)
       expect(result).to eql 1
-    end
+  end
 
     it 'should return 120 when N is equal to 6' do
         result = @solver.factorial(5)
         expect(result).to eql 120
-      end
+  end
   
       it 'should raise an exception when N is a negative integer' do
         result = @solver.factorial(-3)
         expect(result).to match('No negative integer. This is an exception.')
-      end
+  end
     end
   
     context '#reverse method' do
       it 'should take one argument string word and returns word in reverse' do
         reversed_word = @solver.reverse('hello')
         expect(reversed_word).to match('olleh')
-      end
+    end
   
       it 'should return an empty string when word is empty' do
         reversed_word = @solver.reverse('')
         expect(reversed_word).to match('')
-      end
     end
+  end
 
     context '#fizzbuzz function' do
     it 'should return fizzbuzz if the number is divisible by 3 and 5' do
